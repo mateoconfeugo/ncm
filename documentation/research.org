@@ -1,0 +1,93 @@
+#+SETUPFILE: ./themes/theme-readtheorg.setup
+#+TITLE: Applied Networks, Crowds and Markets
+#+SUBTITLE: Taking Knowledge from the Networks, Crowds and Markets and applying it to fight  the Corna Virus originating in Wuhan provience?? China
+#+SUBTITLE: sometime in 2019 data from China*
+#+AUTHOR: Matthew Burns
+#+EMAIL: matthewburns@gmail.com
+#+DATE: March 15, 2020
+#+LANGUAGE: en
+
+* Epidemics
+** Diseases and the Networks That Transmit Them
+The pathogen and the network are closely intertwined: enven within the same population, the contact networks,
+ for two different diseases can have very different structures, depending dieseases' respctive modes of transmissions.
+ - STDs versus the Cold
+*** Properties of Patterns of Epidemics spread through groups of people
+**** Determined by:
+***** Pathogen
+ - contagiousness
+ - the length of its infectious period
+ - severity
+***** The network structure (Of the population affected)
+****** The social network (who knows who)
+****** The contact network
+*** Connections to the Diffusion of Ideas and Behaviors -and  Differences
+The assumption is that when two people are directly linked in the contact network, and one of them has the diesease,
+there is a given probablility that he or she will pass it to the other.
+We have no simple models - so we abstract away the mechanism by modeling it as random.
+This is the lack of decision making and modeling it as random odds of infection is the concrete difference between modeling
+of a biological versus a social contagion.
+
+ - Spread from person to person
+ - What about surfaces?
+ - No decision making process in how a diesease infects a person
+ - Infection process is unobservable
+
+Models based on random process in network/graphs are used to model Epidemics
+
+*** Insight Basic Probablistic (random infection) model provide on Epidemics
+**** Qualitative Aspect involving Spread of Diesease
+***** Sychronization
+***** Timing
+***** Concurrency in Transmission
+
+Deeper unknowns at this point
+
+Randomized models can also sometimes be useful in studing social contagion, particularly in cases where the underlying decision
+process of individuals are hard to model and hence more usefully abstracted as radom processes.  Often the two approaches - decision
+based  and probablistic produce related reults and can sometimes be used in connection.
+
+Understanding the relationship between these methodlogies at a deeper level is an interesting direction for further research.
+
+MB Idea: This probably where the concepts from Judea Pearls Causality start to connect.  Causal Contact Networks (CCN) could be constructed
+to better understand how different populations behaviour (actions taken not taken) affected the outcome of the diesease.
+
+Use dowhy module to model and provided "attributions" to the vertices(nodes) and edges
+Use git to model various branching scenarios.
+* Research Notes On Topics
+** Air filteration
+*** [[https://www.geodict.com/Presentations/2005FiltechWiesbadenElectricSurfaceRiefPaper.pdf][Computer simulation of air filtration including electricsurface charges in three-dimensional fibrous microstructures]]
+This might provide a start point
+**** Layered Media Model
+**** Flow Simulation
+**** Model of surface charges and computation of electric field
+**** Filter efficiency simulation
+**** Filter lifetime simulation
+
+* Testing For The Virus
+[[https://en.wikipedia.org/wiki/Silver_nanoparticle][Silver Nano Particles]]
+
+* Pathogen
+#+NAME: fig:figure name
+#+CAPTION: Novel Coronavirus SARS-CoV-2 This scanning electron microscope image shows SARS-CoV-2 (round magenta objects) emerging from the surface of cells cultured in the lab. SARS-CoV-2, also known as 2019-nCoV, is the virus that causes COVID-19. The virus shown was isolated from a patient in the U.S.
+#+ATTR_ORG: :width 200/250/300/400/500/600
+#+ATTR_LATEX: :width 2.0in
+#+ATTR_HTML: :width 600px
+[[./img/novel_coronavirus_SARS-CoV-2.jpg]]
+
+** Vaccine Development
+*** [[https://www.nih.gov/news-events/news-releases/nih-clinical-trial-investigational-vaccine-covid-19-begins][NIH clinical trial of investigational vaccine for COVID-19 begins]]
+** Defensive Measures
+*** [[https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6412188/][Silver Nanoparticles: Synthesis and Application for Nanomedicine]]
+*** [[https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6264685/][Silver Nanoparticles as Potential Antiviral Agents]]
+*** [[https://pubmed.ncbi.nlm.nih.gov/26491296/][Reduced Graphene Oxide-Silver Nanoparticle Nanocomposite: A Potential Anticancer Nanotherapy]]
+*** [[https://www.sciencedirect.com/science/article/pii/S0001868619301010?via%3Dihub][Ag and Au nanoparticles/reduced graphene oxide composite materials: Synthesis and application in diagnostics and therapeutics]]
+*** [[https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6628170/][Graphene - and Graphene Oxide-Based Nanocomposite Platforms for Electrochemical Biosensing Applications]]
+*** [[https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5566358/][Quercetin-mediated synthesis of graphene oxide–silver nanoparticle nanocomposites: a suitable alternative nanotherapy for neuroblastoma]]
+*** [[https://www.intechopen.com/books/silver-nanoparticles-fabrication-characterization-and-applications/synthesis-characterization-and-antimicrobial-properties-of-silver-nanocomposites][Synthesis, Characterization and Antimicrobial Properties of Silver Nanocomposites]]
+*** [[https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0200918][Printable nanocomposites of polymers and silver nanoparticles for antibacterial devices produced by DoD technology]]
+*** [[https://www.hindawi.com/journals/ijps/2019/4379507/][Greener Synthesis, Characterization, and Antimicrobiological Effects of Helba Silver Nanoparticle-PMMA Nanocomposite]]
+* Glossary
+assay: the testing of a metal or ore to determine its ingredients and quality.
+[[https://en.wikipedia.org/wiki/Respiratory_epithelium][Respiratory epithelium]] - Ciliated columnar epithelium found lining most of the respiratory tract as respiratory mucosa, Moistens and protect the airways.
+[[./img/RespiratoryEpithelium.png]]
